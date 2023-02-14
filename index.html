@@ -3,7 +3,7 @@
   
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>เครดิตฟรี50สนใจคลิก</title>
+  <title>แจกฟรี50</title>
   <meta property="og:locale" content="th_TH">
   <meta property="og:type" content="game mobile">
 
@@ -33,7 +33,7 @@
           <!--ส่วนรูปโปรโมชั่น และ ลิ้งออกจากรูปภาพ-->
           <img src="https://sv1.picz.in.th/images/2023/02/13/LPzK4l.jpg" class="img-fluid" style="width: 450px;border-radius: 15px;">
           
-          <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">กดแชร์ 5 แชร์รับเครดิตฟรี 50 ได้เลย </p>
+          <p class="lead mb-4 mt-3" style="font-family: 'Kanit', sans-serif;font-size: 28px;font-weight: 500;">แชร์เพียง 5 แชร์ก็ได้รับเครดิตฟรีแล้ว </p>
           <div class="d-grid gap-2 col-10 mx-auto">
             <button class="btn btn-primary btn-lg text-nowrap mb-2" id="btnShare" onclick="sendShare()" style="font-family: 'Kanit', sans-serif;">เเชร์แล้วรับเลย</button>
           </div>
@@ -52,7 +52,7 @@
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
         "type": "flex",
-        "altText": "คุณได้รับเครดิตฟรี50คลิก",
+        "altText": "คุณได้รับเครดิตฟรี50",
     "type": "flex",
     "contents": 
     {
@@ -69,7 +69,7 @@
             "type": "image",
             "url": "https://sv1.picz.in.th/images/2023/02/13/LPzK4l.jpg",
             "size": "full",
-            "aspectRatio": "150:150",
+            "aspectRatio": "1:1",
             "gravity": "center",
             "flex": 1
           }
@@ -84,44 +84,54 @@
             "layout": "vertical",
             "contents": [
               {
+                "type": "image",
+                "url": "https://sv1.picz.in.th/images/2023/02/13/LsVIqt.jpg",
+                "aspectMode": "cover",
+                "size": "full"
+              }
+            ],
+            "cornerRadius": "100px",
+            "width": "72px",
+            "height": "72px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
                 "type": "text",
+                "text": "hello, world",
                 "contents": [
                   {
                     "type": "span",
-                    "text": "🌈เปิดใหม่แจกหนัก🌈",
+                    "text": "💸โจ๊ก๘๘๘💸",
                     "size": "lg",
-                    "color": "#F8F8FF"
+                    "weight": "bold",
+                    "color": "#000000"
                   }
-                ],
-                "size": "sm",
-                "wrap": true,
-                "align": "center"
+                ]
               },
               {
-                "type": "box",
-                "layout": "baseline",
+                "type": "text",
+                "text": "hello, world",
                 "contents": [
                   {
-                    "type": "text",
-                    "text": "🎁แจก 50 ทุกท่าน🎁",
+                    "type": "span",
+                    "text": "💰แจกเครดิตฟรี💰",
                     "size": "lg",
-                    "color": "#F8F8FF",
-                    "align": "center"
+                    "color": "#000000"
                   }
-                ],
-                "spacing": "sm",
-                "margin": "md"
+                ]
               },
               {
-                "type": "box",
-                "layout": "vertical",
+                "type": "text",
+                "text": "hello, world",
                 "contents": [
                   {
-                    "type": "text",
-                    "text": "👇🏻พร้อมแจกโปรใหม่ล่าสุด👇🏻",
-                    "color": "#F8F8FF",
-                    "align": "center",
-                    "size": "lg"
+                    "type": "span",
+                    "text": "👇โปรโมชั่น👇",
+                    "size": "lg",
+                    "color": "#000000"
                   }
                 ]
               }
@@ -130,13 +140,12 @@
         ],
         "spacing": "xl",
         "paddingAll": "20px",
-        "backgroundColor": "#000000",
         "background": {
           "type": "linearGradient",
           "angle": "0deg",
-          "startColor": "#000000",
-          "endColor": "#000000",
-          "centerColor": "#228B22"
+          "startColor": "#66FF00",
+          "centerColor": "#E0FFFF",
+          "endColor": "#66FF00"
         }
       },
       {
@@ -145,8 +154,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://sv1.picz.in.th/images/2023/02/13/LPz5bn.jpg",
-            "margin": "none"
+            "url": "https://sv1.picz.in.th/images/2023/02/13/LPz5bn.jpg"
           },
           {
             "type": "image",
@@ -156,10 +164,11 @@
           {
             "type": "image",
             "url": "https://sv1.picz.in.th/images/2023/02/13/LsP2Ev.jpg",
-            "margin": "xs"
+            "margin": "xs",
+            "size": "md"
           }
         ],
-        "backgroundColor": "#000000"
+        "backgroundColor": "#66FF00"
       }
     ],
     "paddingAll": "0px"
@@ -170,34 +179,31 @@
     "contents": [
       {
         "type": "text",
-        "text": "♥ รับเครดิตฟรีคลิกเลย♥",
+        "contents": [],
+        "text": "🖱รับเครดิตฟรีคลิก🖱",
         "size": "lg",
+        "decoration": "underline",
         "align": "center",
-        "color": "#F8F8FF"
+        "color": "#FFD700"
       },
       {
         "type": "button",
         "action": {
           "type": "uri",
-          "label": "💵💵 คลิกเพื่อรับเครดิตฟรี 💵💵",
-          "uri": "https://lin.ee/xkleSmg"
+          "label": "👍คลิกเพื่อรับเครดิต👍",
+          "uri": "https://lin.ee/CAbKUaG"
         },
         "style": "secondary",
-        "color": "#FFCC00",
-        "height": "md"
+        "height": "md",
+        "color": "#FF0000"
       }
     ],
     "background": {
       "type": "linearGradient",
       "angle": "0deg",
-      "startColor": "#000000",
-      "endColor": "#000000",
+      "startColor": "#2F4F4F",
+      "endColor": "#2F4F4F",
       "centerColor": "#228B22"
-    }
-  },
-  "styles": {
-    "footer": {
-      "separator": true
     }
   }
 }
